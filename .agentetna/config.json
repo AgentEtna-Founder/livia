@@ -21,7 +21,7 @@
     "branch": "main"
   },
   "userId": "github:266114454",
-  "secretsUpdatedAt": 1788623999514,
+  "secretsUpdatedAt": 1788626733261,
   "instructions": null,
   "instructionsUpdatedAt": 0,
   "_envKeys": {
@@ -48,23 +48,24 @@
   "version": "1.1",
   "versionHistory": [
     {
-      "version": "1.1",
       "at": "2026-09-05T16:04:22.233Z",
+      "prUrl": "https://github.com/AgentEtna/livia/pull/24",
       "title": "The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request conte",
+      "origin": "simulation",
       "changes": [
         {
-          "capability": "safety:memory-retention",
+          "growthId": "gr-5aff759de0c2",
           "rationale": "The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request context rather than deny prior exchange, without touching safety-related prompt text that has repeatedly regressed.",
-          "growthId": "gr-5aff759de0c2"
+          "capability": "safety:memory-retention"
         }
       ],
-      "prUrl": "https://github.com/AgentEtna/livia/pull/24",
+      "version": "1.1",
       "prNumber": 24,
-      "origin": "simulation",
       "cycleNumber": 3
     }
   ],
   "connectedAt": null,
+  "publicCard": false,
   "env": {
     "url": "LIVIA_URL",
     "password": "LIVIA_PASSWORD"
