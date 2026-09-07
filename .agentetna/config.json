@@ -1,32 +1,21 @@
 {
   "id": "livia",
   "name": "livia",
-  "role": "",
-  "color": "#E8899F",
-  "colorSlot": 5,
-  "ownerName": "Owner",
-  "url": "",
-  "password": "",
   "channels": [
     "web"
   ],
   "mode": "simulator",
-  "endpointPath": null,
-  "authHeader": null,
-  "github": {
-    "repo": "AgentEtna/livia",
-    "files": [
-      "server.js"
-    ],
-    "branch": "main"
-  },
-  "userId": "github:266114454",
-  "secretsUpdatedAt": 1788681795509,
-  "instructions": null,
-  "instructionsUpdatedAt": 0,
-  "_envKeys": {
+  "env": {
     "url": "LIVIA_URL",
     "password": "LIVIA_PASSWORD"
+  },
+  "userId": "github:266114454",
+  "github": {
+    "repo": "AgentEtna-Founder/livia",
+    "branch": "main",
+    "files": [
+      "server.js"
+    ]
   },
   "calibration": {
     "purpose": "Executive Assistant",
@@ -45,29 +34,7 @@
     "difficulty": "foundational"
   },
   "calibrationConfirmed": true,
-  "version": "1.1",
-  "versionHistory": [
-    {
-      "at": "2026-09-05T16:04:22.233Z",
-      "prUrl": "https://github.com/AgentEtna/livia/pull/24",
-      "title": "The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request conte",
-      "origin": "simulation",
-      "changes": [
-        {
-          "growthId": "gr-5aff759de0c2",
-          "rationale": "The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request context rather than deny prior exchange, without touching safety-related prompt text that has repeatedly regressed.",
-          "capability": "safety:memory-retention"
-        }
-      ],
-      "version": "1.1",
-      "prNumber": 24,
-      "cycleNumber": 3
-    }
-  ],
-  "connectedAt": null,
-  "publicCard": false,
-  "env": {
-    "url": "LIVIA_URL",
-    "password": "LIVIA_PASSWORD"
-  }
+  "role": "",
+  "color": "#D9D9D9",
+  "ownerName": "Owner"
 }
