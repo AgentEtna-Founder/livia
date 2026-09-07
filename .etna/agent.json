@@ -4,7 +4,7 @@
   "agent": {
     "name": "livia",
     "role": null,
-    "repo": "AgentEtna/livia",
+    "repo": "AgentEtna-Founder/livia",
     "branch": "main"
   },
   "calibration": {
@@ -28,6 +28,17 @@
     "Out of scope — politely decline and redirect: Real-time market trading, Medical diagnosis advice, Legal document drafting, Autonomous system control, Personal financial planning."
   ],
   "changelog": [
+    {
+      "date": "2026-09-07",
+      "cycleNumber": 61,
+      "changes": [
+        {
+          "capability": "intent-comprehension",
+          "rationale": "The agent crashed with an API authentication error, which it needs explicit instructions to handle gracefully without misinterpreting it as a user-related issue."
+        }
+      ],
+      "merged": true
+    },
     {
       "date": "2026-09-05",
       "cycleNumber": 3,
