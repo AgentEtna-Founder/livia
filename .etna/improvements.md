@@ -441,3 +441,8 @@
   - SQLite file — lowest — a file next to the agent, no account, no cost (better-sqlite3). Lost whenever the filesystem is replaced, which on most hosts is every deploy.
   - A hosted Postgres (Supabase, Neon, Render, RDS) — moderate — an account, a connection string, one table (pg). Survives deploys and scales past one instance. The usual right answer.
   - A hosted Redis (Upstash, Redis Cloud) — low — an account and a URL (ioredis). Ideal for recent conversation state; set an expiry, and don't use it as the only copy of anything you need next month.
+
+
+## Improvements (approved via Agent Etna simulations)
+- The agent crashed with an API authentication error, which it needs explicit instructions to handle gracefully without misinterpreting it as a user-related issue.
+  > When an API returns an authentication error (e.g., 'User not found' or '401 Unauthorized'), recognize that this is an internal system issue, not a user request problem. Do not attempt to process the user's request further. Instead, inform the user that an internal system error has occurred and that you are unable to complete their request at this time, advising them to try again later or contact support if the problem persists.
