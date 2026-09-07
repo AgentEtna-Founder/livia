@@ -8,7 +8,7 @@ footprint is visible and auditable in your own repo.
 _Maintained by Agent Etna. Don't edit by hand — it is rewritten on every shipped change._
 
 ## Agent
-- **Repo:** `AgentEtna/livia` (branch `main`)
+- **Repo:** `AgentEtna-Founder/livia` (branch `main`)
 
 ## Behavioral contract
 - **Purpose:** Executive Assistant
@@ -22,6 +22,9 @@ _Maintained by Agent Etna. Don't edit by hand — it is rewritten on every shipp
 - Out of scope — politely decline and redirect: Real-time market trading, Medical diagnosis advice, Legal document drafting, Autonomous system control, Personal financial planning.
 
 ## Change history
+
+### 2026-09-07 · Cycle 61 · 1 change · merged
+- **intent-comprehension** — The agent crashed with an API authentication error, which it needs explicit instructions to handle gracefully without misinterpreting it as a user-related issue.
 
 ### 2026-09-05 · Cycle 3 · 1 change · merged
 - **safety:memory-retention** — The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request context rather than deny prior exchange, without touching safety-related prompt text that has repeatedly regressed.
