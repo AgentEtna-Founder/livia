@@ -1,21 +1,32 @@
 {
   "id": "livia",
   "name": "livia",
+  "role": "",
+  "color": "#E8899F",
+  "colorSlot": 5,
+  "ownerName": "Owner",
+  "url": "",
+  "password": "",
   "channels": [
     "web"
   ],
   "mode": "simulator",
-  "env": {
-    "url": "LIVIA_URL",
-    "password": "LIVIA_PASSWORD"
-  },
-  "userId": "github:266114454",
+  "endpointPath": null,
+  "authHeader": null,
   "github": {
     "repo": "AgentEtna-Founder/livia",
-    "branch": "main",
     "files": [
       "server.js"
-    ]
+    ],
+    "branch": "main"
+  },
+  "userId": "github:266114454",
+  "secretsUpdatedAt": 1788803329994,
+  "instructions": null,
+  "instructionsUpdatedAt": 0,
+  "_envKeys": {
+    "url": "LIVIA_URL",
+    "password": "LIVIA_PASSWORD"
   },
   "calibration": {
     "purpose": "Executive Assistant",
@@ -34,7 +45,30 @@
     "difficulty": "foundational"
   },
   "calibrationConfirmed": true,
-  "role": "",
-  "color": "#D9D9D9",
-  "ownerName": "Owner"
+  "version": "1.0",
+  "versionHistory": [
+    {
+      "at": "2026-09-07T19:38:51.884Z",
+      "prUrl": "https://github.com/AgentEtna-Founder/livia/pull/25",
+      "title": "The agent crashed with an API authentication error, which it needs explicit instructions to handle gracefully without misinterpreting it as a user-related issue.",
+      "origin": "simulation",
+      "changes": [
+        {
+          "growthId": "gr-c6fcc78c1444",
+          "rationale": "The agent crashed with an API authentication error, which it needs explicit instructions to handle gracefully without misinterpreting it as a user-related issue.",
+          "capability": "intent-comprehension"
+        }
+      ],
+      "pending": true,
+      "version": "1.1",
+      "prNumber": 25,
+      "cycleNumber": 61
+    }
+  ],
+  "connectedAt": null,
+  "publicCard": false,
+  "env": {
+    "url": "LIVIA_URL",
+    "password": "LIVIA_PASSWORD"
+  }
 }
