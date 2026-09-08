@@ -4,7 +4,7 @@
   "agent": {
     "name": "livia",
     "role": null,
-    "repo": "AgentEtna/livia",
+    "repo": "AgentEtna-Founder/livia",
     "branch": "main"
   },
   "calibration": {
@@ -28,6 +28,17 @@
     "Out of scope — politely decline and redirect: Real-time market trading, Medical diagnosis advice, Legal document drafting, Autonomous system control, Personal financial planning."
   ],
   "changelog": [
+    {
+      "date": "2026-09-08",
+      "cycleNumber": 17,
+      "changes": [
+        {
+          "capability": "tool-argument-shaping",
+          "rationale": "The agent failed to use the `add_expense_line` tool for an expense request, instead generating a conversational response, so this prompt update explicitly directs it to use the tool for such requests."
+        }
+      ],
+      "merged": true
+    },
     {
       "date": "2026-09-05",
       "cycleNumber": 3,

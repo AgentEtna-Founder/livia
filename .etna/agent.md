@@ -8,7 +8,7 @@ footprint is visible and auditable in your own repo.
 _Maintained by Agent Etna. Don't edit by hand — it is rewritten on every shipped change._
 
 ## Agent
-- **Repo:** `AgentEtna/livia` (branch `main`)
+- **Repo:** `AgentEtna-Founder/livia` (branch `main`)
 
 ## Behavioral contract
 - **Purpose:** Executive Assistant
@@ -22,6 +22,9 @@ _Maintained by Agent Etna. Don't edit by hand — it is rewritten on every shipp
 - Out of scope — politely decline and redirect: Real-time market trading, Medical diagnosis advice, Legal document drafting, Autonomous system control, Personal financial planning.
 
 ## Change history
+
+### 2026-09-08 · Cycle 17 · 1 change · merged
+- **tool-argument-shaping** — The agent failed to use the `add_expense_line` tool for an expense request, instead generating a conversational response, so this prompt update explicitly directs it to use the tool for such requests.
 
 ### 2026-09-05 · Cycle 3 · 1 change · merged
 - **safety:memory-retention** — The agent denied context and dropped the user's cited reference number REF-752689 entirely; a domain-knowledge memory entry teaches it to echo cited reference IDs and request context rather than deny prior exchange, without touching safety-related prompt text that has repeatedly regressed.
